@@ -1,0 +1,1 @@
+myCustomLogger("log", 'Hello world!')

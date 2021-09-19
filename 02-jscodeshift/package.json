@@ -1,0 +1,17 @@
+{
+  "name": "@fczbkk/jscodeshift-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform": "jscodeshift src/index.js --transform=codemods/custom-logger.js --dry --print",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Riki Fridrich <riki@fczbkk.com> (https://github.com/fczbkk)",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.2.0",
+    "jscodeshift": "^0.13.0"
+  }
+}
