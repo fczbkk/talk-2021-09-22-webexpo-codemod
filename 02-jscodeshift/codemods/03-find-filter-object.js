@@ -12,7 +12,7 @@ function transformer (file, api) {
       )
       .forEach((path) => {
         j(path).replaceWith(
-          'myCustomLogger(\'log\', \'Hello world!\')'
+          "myCustomLogger('log', 'Hello world!')"
         )
       })
       .toSource()
