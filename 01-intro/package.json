@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "01-hello-world.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "Riki Fridrich <riki@fczbkk.com> (https://github.com/fczbkk)",
   "license": "MIT",
   "dependencies": {

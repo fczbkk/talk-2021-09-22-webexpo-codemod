@@ -7,7 +7,7 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [],
-  "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+  "author": "Riki Fridrich <riki@fczbkk.com> (https://fczbkk.com/)",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.26.0",
