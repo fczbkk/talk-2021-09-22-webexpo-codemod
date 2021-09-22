@@ -45,7 +45,7 @@ module.exports = {
         if (isConsoleMethod(node)) {
           context.report({
             node,
-            message: 'Use `myCustomLogger` instad of `console`.',
+            message: 'Use `myCustomLogger` instead of `console`.',
             fix (fixer) {
               return fixer.replaceText(node, convertConsoleCall(node))
             }
